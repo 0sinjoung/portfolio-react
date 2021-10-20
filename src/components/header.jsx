@@ -6,13 +6,11 @@ class Header extends Component {
 
     return (
     <header id="main-header">
-      <button type="menu" className="menu-bars" onClick={this.props.onHandleCover}>
-        <div className="bars-wrap">
+      <div className="btn-container">
+        <button type="menu" className="menu-btn" onClick={this.props.onHandleCover}>
           <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </button>
+        </button>
+      </div>
       <h1 className="header-title">
         <a href="/.">Frontend developer</a>
       </h1>
