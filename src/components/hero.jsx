@@ -1,26 +1,15 @@
 import React, {Component} from "react";
+import Nav from "./nav";
 
 class Hero extends Component {
   render() {
     return(
       <section id="hero">
-        <div class="hero-cover">
-          <h1 class="hero-title">Hello
-            <span class="hero-icon"></span>
+        <div className="hero-cover">
+          <h1 className="hero-title">Hello
+            <span className="hero-icon"></span>
           </h1>
-          <nav class="nav-links">
-            <ul>
-              <li class="main-list">
-                <a href="#about" class="main-link">about</a>
-              </li>
-              <li class="main-list">
-                <a href="#projects" class="main-link">project</a>
-              </li>
-              <li class="main-list">
-                <a href="#contact" class="main-link">contact</a>
-              </li>
-            </ul>
-          </nav>
+          <Nav />
         </div>
       </section>
     );

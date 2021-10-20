@@ -4,7 +4,6 @@ class Detail extends Component {
   render() {
     return (
       <div>
-        hi
       </div>
     );
   }
