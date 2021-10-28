@@ -16,15 +16,17 @@ class About extends Component {
       <div className="about-articles">
         <article className="motivation">
           <h2 className="motivation-title">
-            <span>경험을 추구하는 개발자</span>
-            <span>정영신 입니다</span>
+            <span>즐거운 세상에 보탬이 되고 싶은</span>
+            <span>개발자 정영신 입니다</span>
           </h2>
+          <p className="motivation-desc">➕를 만들기 보다는 ➖를 없애는 것을 목표로 공부하고 있습니다.</p>
           <p className="motivation-desc">
-            섬세한 프론트엔드 개발자를 목표로 공부하고 있는 정영신입니다. 이왕이면 아름다운 것을 좋아하고, 반복 작업을 싫어합니다. 세상만사에 관심이 많고 특히 활자 읽는 것을 좋아합니다.
+          이전 직장에서는 편집 디자인 업무를 담당하였습니다. <br/>개발 역시 디자인과 마찬가지로 일상에서 불편한 문제를 해결한다는 점에서 관심을 갖게 되었습니다.
           </p>
-          <p className="motivation-desc">사람과 사회에 도움이 되는 일을 하고 싶습니다.</p>
-          <p className="motivation-desc">명품의 차이는 디테일에서 나온다는 마음가짐으로 업무에 임합니다.</p>
-          <p className="motivation-desc">마감에 초인적인 힘을 발휘합니다</p>
+          <p className="motivation-desc">현재는 어떻게 하면 사용자에게 아름다우면서도 편리하고 실용적인 경험을 제공할 수 있는지에 대해 고민하고 있습니다.
+          </p>
+          <p className="motivation-desc">새로운 것을 배우는 것, 몰입하는 경험, 지속 가능한 것을 좋아합니다.</p>
+          <p className="motivation-desc">남는 시간에는 활자 읽기, 그림 그리기, 산책을 하며 보냅니다.</p>
         </article>
         <article className="skills">
           <h2 className="skills-title">Skills</h2>

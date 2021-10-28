@@ -4,7 +4,8 @@ class Footer extends Component {
   render() {
     return (
     <footer id="footer">
-      <span>2021 Joung Yeongsin Copyright</span>
+      <p>© 2021 Joung Yeongsin Copyright</p>
+      <p><b>Built with React</b></p>
     </footer>
     );
   }

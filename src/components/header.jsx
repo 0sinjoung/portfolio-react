@@ -16,10 +16,10 @@ class Header extends Component {
       </h1>
       <nav className="header-nav">
         <ul className="nav-lists" onClick={this.props.onHandleCover}>
-          <li className="nav-list">
+          <li className="header-nav-list">
             <a href="#about">About</a>
           </li>
-          <li className="nav-list">
+          <li className="header-nav-list">
             <a href="#projects">Project</a>
             <ul>
               <li className="project-list">
@@ -30,7 +30,7 @@ class Header extends Component {
               </li>
             </ul>
           </li>
-          <li className="nav-list">
+          <li className="header-nav-list">
             <a href="#contact">Contact</a>
           </li>
         </ul>
