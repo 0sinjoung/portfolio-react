@@ -39,7 +39,7 @@ class Contact extends Component {
             </li>
           </ul>
         </address>
-        <a href="https://drive.google.com/file/d/1NlAYeQnAKWBP-wMIRhk7rzMBNfpJ6FHX/view?usp=sharing" target="_blank" rel="noreferrer"  className="resume">
+        <a href="https://drive.google.com/file/d/1ttV3ji2PbMpm4MA2zdmXeFiZA1fD7K3S/view?usp=sharing" target="_blank" rel="noreferrer"  className="resume">
           <span>
             <strong>이력서</strong> 보러가기
           </span>
