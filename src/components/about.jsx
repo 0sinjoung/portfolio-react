@@ -53,7 +53,6 @@ class About extends Component {
               </h3>
               <ul className="language-lists">
                 <li className="skill-list">Git</li>
-                <li className="skill-list">Sass</li>
                 <li className="skill-list">MySQL</li>
               </ul>
             </div>

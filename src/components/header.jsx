@@ -5,7 +5,7 @@ class Header extends Component {
     console.log('Menu Btn: '+this.props.isMenuOn);
 
     return (
-    <header id="main-header">
+    <header id="header">
       <div className="btn-container">
         <button type="menu" className="menu-btn" onClick={this.props.onHandleCover}>
           <span></span>
@@ -22,11 +22,11 @@ class Header extends Component {
           <li className="header-nav-list">
             <a href="#projects">Project</a>
             <ul>
-              <li className="project-list">
-                <a href="/.">Typography Scale</a>
+              <li className="header-project">
+                <a href="#typography-scale">Typography Scale</a>
               </li>
-              <li className="project-list">
-                <a href="/.">What do I drink today</a>
+              <li className="header-project">
+                <a href="#typography-scale">What do I drink today</a>
               </li>
             </ul>
           </li>

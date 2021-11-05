@@ -120,6 +120,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* Header Menu */
 .container.on {
   width: 100%;
   height: 100vh;
@@ -127,7 +129,6 @@ body {
   transform: all calc(var(--duration-basic) * 2);
 }
 
-/* Menu btn */
 .btn-container {
   width: var(--buttonBarsSize);
   height: var(--buttonBarsSize);
@@ -201,7 +202,6 @@ body {
 .container.on .menu-btn span::after {
   top: 50%;
   left: 0;
-  background-color: var(--colorPoint);
 }
 .container.on .menu-btn span::before {
   transform: rotate(45deg);
@@ -211,9 +211,8 @@ body {
 }
 
 
-
 /* Header */
-#main-header {
+#header {
   width: 100%;
   height: var(--mobileHeaderNavFooterSize);
   position: absolute;
@@ -234,25 +233,10 @@ body {
   color: var(--colorPoint);
 }
 
-.container.on .header-title {
-  display: none;
-}
-
-.container.on #main-header {
-  height: 100vh;
-  position: fixed;
-  background-color: var(--colorBase);
-}
-
 .header-nav {
   display: none;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
-}
-
-.container.on .header-nav {
-  display: flex;
 }
 
 .header-nav-list {
@@ -267,14 +251,33 @@ body {
   color: var(--colorPoint);
 }
 
-.project-list {
+.header-project {
   font-size: var(--mobileTitleLarge);
   font-weight: var(--fontWeightRegular);
   margin-top: var(--baseMargin);
 }
-.project-list:hover {
+.header-project:hover {
   color: var(--colorMainDeep);
 }
+
+.container.on .header-title {
+  display: none;
+}
+
+.container.on #header {
+  height: 100vh;
+  position: fixed;
+  background-color: var(--colorBase);
+}
+
+.container.on .header-nav {
+  display: flex;
+}
+
+
+
+
+
 
 
 
@@ -568,11 +571,17 @@ body {
   overflow: hidden;
 }
 
-.project-img {
+#typography-scale .project-img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   height: 130%;
+}
+#what-do-i-drink-today .project-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 .project-intro, 
