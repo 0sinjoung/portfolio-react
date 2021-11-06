@@ -348,37 +348,6 @@ body {
   color: var(--colorMain);
 }
 
-.blob1, 
-.blob2 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-size: 100% 100%;
-  opacity: 95%;
-  animation: rolyPoly 2s infinite alternate;
-}
-.blob1{
-  top: -40%;
-  right: -50%;
-  background-image: url(./components/assets/images/blob1.svg);
-  animation-timing-function: ease-in-out ;
-}
-.blob2 {
-  top: 35%;
-  left: -40%;
-  background-image: url(./components/assets/images/blob2.svg);
-  animation-timing-function: ease-in ;
-}
-
-@keyframes rolyPoly {
-  from {
-    transform: rotate(-5deg);
-  }
-  to {
-    transform: rotate(5deg);
-  }
-}
-
 .title-animation span {
   display: block;
   overflow: hidden;
@@ -571,17 +540,21 @@ body {
   overflow: hidden;
 }
 
-#typography-scale .project-img {
+.project-img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+
+#typography-scale .project-img {
   height: 130%;
 }
+#what-do-i-drink-today .project-img-wrap {
+  background-color: #B2CED9;
+}
 #what-do-i-drink-today .project-img {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
+  max-height: 100%;
 }
 
 .project-intro, 
@@ -792,15 +765,6 @@ body {
     padding: 0 var(--tabletGrid);
   }
 
-  .blob1 {
-    top: -30%;
-    right: -45%;
-  }
-
-  .blob2 {
-    top: 20%;
-    left: -50%;
-  }
   
   .motivation,
   .skills,
@@ -855,7 +819,7 @@ body {
     height: 600px;
   }
   
-  .project-img {
+  #typography-scale .project-img {
     top: -10%;
     height: 150%;
   }

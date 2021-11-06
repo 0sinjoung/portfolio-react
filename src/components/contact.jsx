@@ -31,15 +31,15 @@ class Contact extends Component {
             </li>
             <li  className="address-item github">
               <span  className="address-item-title">guthub</span>
-              <a href="https://github.com/0sinjoung">github.com/0sinjoung</a>
+              <a href="https://github.com/0sinjoung" target="_blank" rel="noreferrer">github.com/0sinjoung</a>
             </li>
             <li  className="address-item notion">
               <span  className="address-item-title">Notion</span>
-              <a href="https://rightful-process-095.notion.site/JavaScript-1437d16fbba04bc6a208602374353fd4">notion link</a>
+              <a href="https://rightful-process-095.notion.site/JavaScript-1437d16fbba04bc6a208602374353fd4" target="_blank" rel="noreferrer">Yeongsin's notion</a>
             </li>
           </ul>
         </address>
-        <a href="https://drive.google.com/file/d/1ttV3ji2PbMpm4MA2zdmXeFiZA1fD7K3S/view?usp=sharing" target="_blank" rel="noreferrer"  className="resume">
+        <a href="https://drive.google.com/file/d/1N2BEtwVwZWOhsOj_EVSo9y0lZkRK9cnS/view?usp=sharing" target="_blank" rel="noreferrer"  className="resume">
           <span>
             <strong>이력서</strong> 보러가기
           </span>

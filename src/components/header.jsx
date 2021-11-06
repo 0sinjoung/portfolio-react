@@ -26,7 +26,7 @@ class Header extends Component {
                 <a href="#typography-scale">Typography Scale</a>
               </li>
               <li className="header-project">
-                <a href="#typography-scale">What do I drink today</a>
+                <a href="#what-do-i-drink-today">What do I drink today</a>
               </li>
             </ul>
           </li>

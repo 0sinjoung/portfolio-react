@@ -37,8 +37,6 @@ class Hero extends Component {
         <div className="hero-cover">
           <h2 className="hero-title" ref={this.title}>
           </h2>
-          <span className="blob1"></span>
-          <span className="blob2"></span>
           <Nav />
         </div>
       </section>
